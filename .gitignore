@@ -1,0 +1,55 @@
+# Ignore the Conda environment folder
+/env/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+.venv/
+venv/
+
+# Ignore log files and temporary files
+*.log
+*.out
+*.err
+*.swp
+*.swo
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter notebook metadata backups
+*.ipynb~ 
+
+# Ignore VS Code settings (if using)
+.vscode/
+
+# Ignore dataset files (optional, comment out if needed)
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.db
+*.sqlite
+
+# Ignore model checkpoints and large binary files
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+
+# Ignore output folders (common in ML projects)
+outputs/
+models/
+checkpoints/
+data/
+
+# Ignore Conda-specific files
+conda-meta/
+pkgs/
